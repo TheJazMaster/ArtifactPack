@@ -1,0 +1,21 @@
+{
+    "UniqueName": "TheJazMaster.EnemyPack",
+    "DisplayName": "Enemy Pack",
+    "Description": "Adds both a few unique enemies and a new elite to each zone, with custom mechanics, art and dialogue.",
+    "Version": "2.0.10",
+    "RequiredApiVersion": "0.1.0",
+    "EntryPointAssembly": "EnemyPack.dll",
+    "LoadPhase": "AfterDbInit",
+    "Dependencies": [
+        {
+            "UniqueName": "TheJazMaster.MoreDifficulties",
+            "Version": "1.3.0",
+            "IsRequired": false
+        }
+    ],
+    "UpdateChecks": {
+		"NexusMods": {
+			"ID": 25
+		}
+	}
+}

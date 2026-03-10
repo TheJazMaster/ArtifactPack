@@ -1,0 +1,454 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "EnumByNameSourceGenerator/1.1.2": {
+        "type": "package"
+      },
+      "Fayti1703.AssemblyTasks/1.1.0": {
+        "type": "package",
+        "build": {
+          "build/Fayti1703.AssemblyTasks.targets": {}
+        }
+      },
+      "MonoGame.Framework.DesktopGL/3.8.4": {
+        "type": "package",
+        "dependencies": {
+          "MonoGame.Library.OpenAL": "1.23.1.10",
+          "MonoGame.Library.SDL": "2.32.2.1",
+          "NVorbis": "0.10.4"
+        },
+        "compile": {
+          "lib/net8.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "MonoGame.Library.OpenAL/1.23.1.10": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/osx/native/_._": {
+            "assetType": "native",
+            "rid": "osx"
+          }
+        }
+      },
+      "MonoGame.Library.SDL/2.32.2.1": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/osx/native/_._": {
+            "assetType": "native",
+            "rid": "osx"
+          }
+        }
+      },
+      "Nanoray.ExtractSingleFileApplicationResourceTask/1.0.0": {
+        "type": "package",
+        "build": {
+          "build/Nanoray.ExtractSingleFileApplicationResourceTask.targets": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Nickel.ModBuildConfig/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Fayti1703.AssemblyTasks": "1.1.0",
+          "Nanoray.ExtractSingleFileApplicationResourceTask": "1.0.0"
+        },
+        "build": {
+          "build/Nickel.ModBuildConfig.targets": {}
+        }
+      },
+      "NVorbis/0.10.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EnumByNameSourceGenerator/1.1.2": {
+      "sha512": "NjM5gOweszolVDcJlKf9XVPMVmOeqi3HUc05Lz8lxmDCRqJnIrNSqiSRQsGYOtqUKkJMmNIoKlEIGwpGnmKEDw==",
+      "type": "package",
+      "path": "enumbynamesourcegenerator/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "analyzers/dotnet/cs/EnumByNameSourceGenerator.dll",
+        "enumbynamesourcegenerator.1.1.2.nupkg.sha512",
+        "enumbynamesourcegenerator.nuspec"
+      ]
+    },
+    "Fayti1703.AssemblyTasks/1.1.0": {
+      "sha512": "U4vvSx3nhLFMHlnrMSKlFa0Jfu1l7dGZPxmnA+zVswJJDUbbmoupGugt2yXCzlWUJar30IIs2k9f/NhqbWcQrA==",
+      "type": "package",
+      "path": "fayti1703.assemblytasks/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "build/Fayti1703.AssemblyTasks.dll",
+        "build/Fayti1703.AssemblyTasks.targets",
+        "build/Mono.Cecil.Pdb.dll",
+        "build/Mono.Cecil.dll",
+        "fayti1703.assemblytasks.1.1.0.nupkg.sha512",
+        "fayti1703.assemblytasks.nuspec"
+      ]
+    },
+    "MonoGame.Framework.DesktopGL/3.8.4": {
+      "sha512": "2WR/vPNPcmQ9h4EhMkfpUfMW0Krm6pX0ElkZwSRI1IUecPuzLeXt0i9NRwGxZBUdcNdNxACCmswrxSf4B95Obg==",
+      "type": "package",
+      "path": "monogame.framework.desktopgl/3.8.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README-packages.md",
+        "build/MonoGame.Framework.DesktopGL.targets",
+        "lib/net8.0/MonoGame.Framework.dll",
+        "lib/net8.0/MonoGame.Framework.xml",
+        "monogame.framework.desktopgl.3.8.4.nupkg.sha512",
+        "monogame.framework.desktopgl.nuspec"
+      ]
+    },
+    "MonoGame.Library.OpenAL/1.23.1.10": {
+      "sha512": "4/F4FFyt7OYhtEmgi/Qmv01eC6GfQ9dkIPsymgkwJ/tV7PewmWrHg/LvTKjd6R+5j/tlO8JkjsEb0Aje6bxfxw==",
+      "type": "package",
+      "path": "monogame.library.openal/1.23.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE",
+        "README.md",
+        "monogame.library.openal.1.23.1.10.nupkg.sha512",
+        "monogame.library.openal.nuspec",
+        "runtimes/android-arm/native/libopenal.so",
+        "runtimes/android-arm64/native/libopenal.so",
+        "runtimes/android-x64/native/libopenal.so",
+        "runtimes/android-x86/native/libopenal.so",
+        "runtimes/ios-arm64/native/libopenal.dylib",
+        "runtimes/iossimulator-arm64/native/libopenal.dylib",
+        "runtimes/iossimulator-x64/native/libopenal.dylib",
+        "runtimes/linux-x64/native/libopenal.so",
+        "runtimes/osx/native/libopenal.dylib",
+        "runtimes/win-x64/native/openal.dll"
+      ]
+    },
+    "MonoGame.Library.SDL/2.32.2.1": {
+      "sha512": "T4E2ppGlSTC2L9US1rxtdg3qTbarRzNId31xZoumUW9cf9Nq8nRQPMu9GzvZGrhfSySf0+UWPEj1rlicps+P/w==",
+      "type": "package",
+      "path": "monogame.library.sdl/2.32.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.txt",
+        "README.md",
+        "monogame.library.sdl.2.32.2.1.nupkg.sha512",
+        "monogame.library.sdl.nuspec",
+        "runtimes/linux-x64/native/libSDL2-2.0.so.0",
+        "runtimes/osx/native/libSDL2-2.0.0.dylib",
+        "runtimes/win-x64/native/SDL2.dll"
+      ]
+    },
+    "Nanoray.ExtractSingleFileApplicationResourceTask/1.0.0": {
+      "sha512": "0U6jrrA25UVpCSz+nxjB4dISGulsWnlgzyff01+49azDh+glCA3Jp1r7cUgmlMob9HhcrCUBTvqg4/GU4KDE/A==",
+      "type": "package",
+      "path": "nanoray.extractsinglefileapplicationresourcetask/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "build/Nanoray.ExtractSingleFileApplicationResourceTask.dll",
+        "build/Nanoray.ExtractSingleFileApplicationResourceTask.targets",
+        "build/SingleFileExtractor.Core.dll",
+        "nanoray.extractsinglefileapplicationresourcetask.1.0.0.nupkg.sha512",
+        "nanoray.extractsinglefileapplicationresourcetask.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Nickel.ModBuildConfig/2.1.0": {
+      "sha512": "XpPx8CoQcQlROfsga12Au5tnUOatWMbY7uZbufvvZrn/sgo4oTwiU9EtFpDnYmqr15pWpEIUOA+tL+764FDeMQ==",
+      "type": "package",
+      "path": "nickel.modbuildconfig/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "analyzers/dotnet/cs/Nickel.ModBuildConfig.Analyzer.dll",
+        "build/FindModLoaderPath.targets",
+        "build/Newtonsoft.Json.dll",
+        "build/Nickel.ModBuildConfig.dll",
+        "build/Nickel.ModBuildConfig.targets",
+        "nickel.modbuildconfig.2.1.0.nupkg.sha512",
+        "nickel.modbuildconfig.nuspec"
+      ]
+    },
+    "NVorbis/0.10.4": {
+      "sha512": "WYnil3DhQHzjCY0dM9I2B3r1vWip90AOuQd25KE4NrjPQBg0tBJFluRLm5YPnO5ZLDmwrfosY8jCQGQRmWI/Pg==",
+      "type": "package",
+      "path": "nvorbis/0.10.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net45/NVorbis.dll",
+        "lib/net45/NVorbis.xml",
+        "lib/netstandard2.0/NVorbis.dll",
+        "lib/netstandard2.0/NVorbis.xml",
+        "nvorbis.0.10.4.nupkg.sha512",
+        "nvorbis.nuspec"
+      ]
+    },
+    "System.Memory/4.5.3": {
+      "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "type": "package",
+      "path": "system.memory/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.3.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "EnumByNameSourceGenerator >= 1.1.2",
+      "MonoGame.Framework.DesktopGL >= 3.8.4",
+      "Newtonsoft.Json >= 13.0.3",
+      "Nickel.ModBuildConfig >= 2.1.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/thejazmaster/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "2.0.0",
+    "restore": {
+      "projectUniqueName": "/home/thejazmaster/Nickel/ModWorkingDirectory/ArtifactPack/ArtifactPack.csproj",
+      "projectName": "ArtifactPack",
+      "projectPath": "/home/thejazmaster/Nickel/ModWorkingDirectory/ArtifactPack/ArtifactPack.csproj",
+      "packagesPath": "/home/thejazmaster/.nuget/packages/",
+      "outputPath": "/home/thejazmaster/Nickel/ModWorkingDirectory/ArtifactPack/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/thejazmaster/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "EnumByNameSourceGenerator": {
+            "include": "None",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.1.2, )"
+          },
+          "MonoGame.Framework.DesktopGL": {
+            "include": "None",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.8.4, )"
+          },
+          "Newtonsoft.Json": {
+            "include": "None",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[13.0.3, )"
+          },
+          "Nickel.ModBuildConfig": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

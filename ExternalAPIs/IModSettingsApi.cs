@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Numerics;
 
-namespace TheJazMaster.EnemyPack;
+namespace TheJazMaster.ArtifactPack;
 
 /// <summary>
 /// Provides access to <c>Nickel.ModSettings</c> APIs.

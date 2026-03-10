@@ -1,6 +1,6 @@
 ﻿using Nanoray.EnumByNameSourceGenerator;
 
-namespace TheJazMaster.EnemyPack;
+namespace TheJazMaster.ArtifactPack;
 
 [EnumByName(typeof(Spr))]
 internal static partial class StableSpr { }

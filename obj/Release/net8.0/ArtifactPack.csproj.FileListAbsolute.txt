@@ -1,0 +1,9 @@
+/home/thejazmaster/Nickel/ModWorkingDirectory/ArtifactPack/bin/Release/net8.0/ArtifactPack.deps.json
+/home/thejazmaster/Nickel/ModWorkingDirectory/ArtifactPack/bin/Release/net8.0/ArtifactPack.dll
+/home/thejazmaster/Nickel/ModWorkingDirectory/ArtifactPack/obj/Release/net8.0/ArtifactPack.csproj.AssemblyReference.cache
+/home/thejazmaster/Nickel/ModWorkingDirectory/ArtifactPack/obj/Release/net8.0/ArtifactPack.GeneratedMSBuildEditorConfig.editorconfig
+/home/thejazmaster/Nickel/ModWorkingDirectory/ArtifactPack/obj/Release/net8.0/ArtifactPack.AssemblyInfoInputs.cache
+/home/thejazmaster/Nickel/ModWorkingDirectory/ArtifactPack/obj/Release/net8.0/ArtifactPack.AssemblyInfo.cs
+/home/thejazmaster/Nickel/ModWorkingDirectory/ArtifactPack/obj/Release/net8.0/ArtifactPack.csproj.CoreCompileInputs.cache
+/home/thejazmaster/Nickel/ModWorkingDirectory/ArtifactPack/obj/Release/net8.0/ArtifactPack.sourcelink.json
+/home/thejazmaster/Nickel/ModWorkingDirectory/ArtifactPack/obj/Release/net8.0/ArtifactPack.dll
